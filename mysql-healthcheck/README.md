@@ -30,7 +30,7 @@ From you Swarm mode manager:
 
 2. watch the tasks
   ```
-  docker service ps mysql
+  watch docker service ps mysql
   ```
 
 3. make the service unhealthy
@@ -39,3 +39,6 @@ From you Swarm mode manager:
   ```
 
 4. watch as the service is modified to make the task healthy again
+  ```
+  watch docker ps -a
+  ```
